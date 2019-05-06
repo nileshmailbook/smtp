@@ -1,8 +1,8 @@
 <?php
 
-namespace Neil\mailSetting\Controllers;
+namespace Neil\MailSetting\Controllers;
 
-use Neil\mailSetting\Models\Setting;
+use Neil\MailSetting\Models\Setting;
 use Illuminate\Http\Request; 
 use Mail;
 

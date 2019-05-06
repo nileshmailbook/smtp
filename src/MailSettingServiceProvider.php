@@ -1,6 +1,6 @@
 <?php
 
-namespace Neil\mailSetting;
+namespace Neil\MailSetting;
 
 use Config; 
 use Illuminate\Support\Facades\DB;

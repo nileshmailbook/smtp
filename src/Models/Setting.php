@@ -1,6 +1,6 @@
 <?php
 
-namespace Neil\mailSetting\Models;
+namespace Neil\MailSetting\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -19,7 +19,7 @@
      "extra": {       
         "laravel": {
             "providers": [
-                "Neil\\mailSetting\\MailSetServiceProvider"
+                "Neil\\MailSetting\\MailSetServiceProvider"
             ]
         }
     }
