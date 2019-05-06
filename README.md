@@ -2,14 +2,12 @@
 
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/neil/mail-smtp.svg?style=flat-square)](https://packagist.org/packages/neil/mail-smtp)
-
 [![Latest Issue](https://img.shields.io/github/issues/nileshmailbook/smtp.svg?style=flat-square)](https://github.com/nileshmailbook/smtp/issues)
-
 [![Total Downloads](https://img.shields.io/packagist/dt/neil/mail-smtp.svg?style=flat-square)](https://packagist.org/packages/neil/mail-smtp)
  
-##Description
+## Description
 
-#This package allow user to create own smtp in existing project and allow sending mail through it.
+# This package allow user to create own smtp in existing project and allow sending mail through it.
 
 #simply call /smtp route and fill the details of your smtp and and tested on their.
 
@@ -36,7 +34,7 @@ After the installing this package run the migrations:
 php artisan migrate
 ```
 
-After successfull running migrate just start your local server and after login just hit local_path/smtp url in adress bar.
-now configure the smtp and try to check in test mail section.
+After successfull running migrate just start your local server and login in your app type url localhost:8000/smtp url in adress bar.
+now configure the smtp and try to check your smtp is workable in test mail section.
 
 Now enjoy the simple mail function on the fly.
