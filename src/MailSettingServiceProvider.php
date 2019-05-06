@@ -21,10 +21,6 @@ class MailSetServiceProvider extends ServiceProvider
         $this->publishes([
         __DIR__.'/resources/views/smtp' => resource_path('views/vendor/mailsetting'),
         ]);
-
-         
-
-
     }
 
     /**
