@@ -1,0 +1,19 @@
+{
+    "name": "neil/mail-smtp",
+    "description": "this package allow user to create own smtp in existing project and allow sending mail through it.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nilesh katre",
+            "email": "Nilesh@xebecindia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Neil\\MailSetting\\": "src/"
+        }
+    }
+}
