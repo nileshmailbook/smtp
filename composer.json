@@ -15,5 +15,11 @@
         "psr-4": {
             "Neil\\MailSetting\\": "src/"
         }
-    }
+    },
+     "extra": {       
+        "laravel": {
+            "providers": [
+                "Neil\\mailSetting\\MailSetServiceProvider"
+            ]
+        }
 }
