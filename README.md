@@ -1,11 +1,41 @@
-##Laravel SMTP Configuration
+# Laravel SMTP Configuration
 
-#install this package using 'composer require neil/mail-smtp'
 
-#this package allow user to create own smtp in existing project and allow sending mail through it.
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/neil/mail-smtp.svg?style=flat-square)](https://packagist.org/packages/neil/mail-smtp)
+[![Latest Issue]https://img.shields.io/github/issues/nileshmailbook/smtp.svg?style=flat-square)] 
+
+[![Total Downloads](https://img.shields.io/packagist/dt/neil/mail-smtp.svg?style=flat-square)](https://packagist.org/packages/neil/mail-smtp)
+ 
+##Description
+
+#This package allow user to create own smtp in existing project and allow sending mail through it.
 
 #simply call /smtp route and fill the details of your smtp and and tested on their.
 
 #this package extend the laravel mail on the fly, no need to configure .env or config/mail.php
 
-#hassle free package available form laravel 5.8.* 
+#hassle free package available form laravel 5.8.*  
+
+
+### Laravel
+
+This package can be used in Laravel 5.8 or higher.
+
+You can install the package via composer:
+
+``` bash
+composer require neil/mail-smtp
+```
+
+The service provider will automatically get registered.
+
+After the installing this package run the migrations:
+
+```bash
+php artisan migrate
+```
+
+After successfull running migrate just start your local server and after login just hit local_path/smtp url in adress bar.
+now configure the smtp and try to check in test mail section.
+
+Now enjoy the simple mail function on the fly.
