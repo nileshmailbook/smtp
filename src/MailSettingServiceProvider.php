@@ -20,7 +20,7 @@ class MailSetServiceProvider extends ServiceProvider
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
 
          $this->publishes([
-        __DIR__.'/resources/views' => resource_path('views/smtp'),
+        __DIR__.'/resources/views' => resource_path('views/vendor/mailsetting'),
         ]);
     }
 
