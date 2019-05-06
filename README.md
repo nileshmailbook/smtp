@@ -35,6 +35,14 @@ After the installing this package run the migrations:
 php artisan migrate
 ```
 
+If you want to change UI of smtp Configuration you may wish to publish in view
+
+simply publish the view
+
+```bash
+php artisan vendor:publish
+```
+
 After successfull running migrate just start your local server and login in your app type url localhost:8000/smtp url in adress bar.
 now configure the smtp and try to check your smtp is workable in test mail section.
 
