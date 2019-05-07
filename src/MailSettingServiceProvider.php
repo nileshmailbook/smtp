@@ -14,13 +14,13 @@ class MailSetServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
-    {
+    {   //loading here
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
         $this->loadViewsFrom(__DIR__.'/resources/views','mailsetting');
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         //publish view
         $this->publishes([
-        __DIR__.'/resources/views/smtp' => resource_path('views/vendor/mailsetting'),
+        __DIR__.'/resources/views' => resource_path('views/vendor/mailsetting'),
         ]);
     }
 
