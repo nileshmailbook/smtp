@@ -8,7 +8,7 @@
  
 ## Description
 
-# This package allow user to create own smtp in existing project and allow sending mail through it.
+# This package allow user to create own smtp in existing laravel project and allow sending mail through it.
 
 #simply call /smtp route and fill the details of your smtp and and tested on their.
 
